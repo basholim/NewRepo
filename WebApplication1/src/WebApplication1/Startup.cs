@@ -13,7 +13,7 @@ namespace WebApplication1
         // For more information on how to configure your application, visit http://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            Console.Write("test");
+            Console.Write("test"); // add something from master
         }
 
         public void Configure(IApplicationBuilder app)
